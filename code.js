@@ -35,4 +35,3 @@ const dragging = e => {
 
 tabsBox.addEventListener('mousedown', () => (isDragging = true))
 tabsBox.addEventListener('mousemove', dragging)
-document.addEventListener('mouseup', dragStop)
